@@ -1,0 +1,62 @@
+@import "./colors.scss";
+@import "./mixins.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Lato", sans-serif;
+    line-height: 1.6;
+    font-size: 14px;
+    background: $body-bg;
+}
+
+img {
+    width: 100%;
+}
+
+.color-white {
+    color: $white;
+}
+
+.color-primary {
+    color: $primary;
+}
+
+.white-background {
+    background-color: $white !important;
+}
+
+.align-horizontally {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-only {
+    @include small-desktop {
+        display: none;
+    }
+}
+
+.desktop-only {
+    display: none;
+    @include small-desktop {
+        display: block;
+    }
+}
+
+.max-width-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.full-width{
+    width: 100% !important;
+}

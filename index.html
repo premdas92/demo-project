@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dubai Municipality</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="mobile-only hamburger-menu">
+                <button class="hamburger" id="hamburger-btn">
+                    <i class="fa-solid fa-bars fa-xl color-white"></i>
+                </button>
+            </div>
+            <div class="logo">
+                <img src="./assets/images/mobile-logo.png" class="white-logo" alt="mobile-logo" />
+            </div>
+            <div class="header-search mobile-only">
+                <i class="fa-solid fa-magnifying-glass fa-xl color-white"></i>
+            </div>
+            <nav class="desktop-only desktop-navigation">
+                <li>
+                    <a href="#" title="About us">About</a>
+                </li>
+                <li>
+                    <a href="#" title="Services">Services</a>
+                </li>
+                <li>
+                    <a href="#" title="Clients">Clients</a>
+                </li>
+                <li>
+                    <a href="#" title="Contact">Contact</a>
+                </li>
+            </nav>
+        </div>
+        <div id="sidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" title="close button">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner-content">
+                <div class="banner-text-content">
+                    <h1>
+                        <div class="banner-text">Making Dubai more</div>
+                        <div class="banner-text banner-big-text">Livable</div>
+                        <div class="banner-text">every day</div>
+                    </h1>
+                    <div class="search-box">
+                        <input type="text" placeholder="Search Services, News, Information...">
+                        <i class="fa-solid fa-microphone search-attr align-left"></i>
+                        <i class="fa-solid fa-magnifying-glass search-attr align-right"></i>
+                    </div>
+                </div>
+                <div class="banner-image"></div>
+            </div>
+        </section>
+        <section class="check-pay">
+            <div class="max-width-container check-pay-inner-wrapper">
+                <h2 class="heading">Check & Pay</h2>
+                <div class="sub-heading">Towards Constructing a futuristic metropolis is propelled by cutting-edge
+                    technological
+                    breakthroughs in pivotal industries.</div>
+                <div class="tabs">
+                    <button class="tab-btn" data-tab="payments">Payments</button>
+                    <button class="tab-btn" data-tab="requests">Track Requests</button>
+                    <button class="tab-btn" data-tab="verifications">Verifications</button>
+                </div>
+                <div class="tab-content" id="payments">
+                    <div class="inner-wrapper">
+                        <div class="label">
+                            <label for="voucher">Pay Instantly</label>
+                        </div>
+                        <input type="text" id="voucher" placeholder="Enter Voucher Number">
+                    </div>
+                    <button>Pay Instantly</button>
+                </div>
+                <div class="tab-content" id="requests" style="display: none;">
+                    <p>Track your requests here.</p>
+                </div>
+                <div class="tab-content" id="verifications" style="display: none;">
+                    <p>Verify your information here.</p>
+                </div>
+            </div>
+        </section>
+        <section class="impact-pillars">
+            <div class="pillars-inner-wrapper max-width-container">
+                <h2 class="heading">Making Dubai More Every Day.</h2>
+                <div class="sub-heading">The Dubai Municipality impact pillars define our commitment to the city and its
+                    people.
+                </div>
+                <div class="pillars-container">
+                    <div class="pillars">
+                        <div class="pillar">
+                            <div class="img">
+                                <img src="./assets/images/icon-beautiful.svg" alt="beautiful-icon" />
+                            </div>
+                            <div class="pillar-heading">Beautiful</div>
+                            <p>Designing beautiful spaces to enrich lives.</p>
+                            <a href="#" title="Learn More">Learn More ></a>
+                        </div>
+                        <div class="pillar">
+                            <div class="img">
+                                <img src="./assets/images/icon-livable.svg" alt="liveable-icon" />
+                            </div>
+                            <div class="pillar-heading">Livable</div>
+                            <p>Empowering growth and a thriving economy.</p>
+                            <a href="#" title="Learn More">Learn More ></a>
+                        </div>
+                        <div class="pillar">
+                            <div class="img">
+                                <img src="./assets/images/icon-pioneering.svg" alt="pioneering-icon" />
+                            </div>
+                            <div class="pillar-heading">Pioneering</div>
+                            <p>Shaping tomorrow with smart technology.</p>
+                            <a href="#" title="Learn More">Learn More ></a>
+                        </div>
+                        <div class="pillar">
+                            <div class="img">
+                                <img src="./assets/images/icon-sustainable.svg" alt="sustainable-icon" />
+                            </div>
+                            <div class="pillar-heading">Sustainable</div>
+                            <p>Nurturing tomorrow through sustainability.</p>
+                            <a href="#" title="Learn More">Learn More ></a>
+                        </div>
+                    </div>
+                    <div class="pillar-work-demo desktop-only">
+                        <img src="./assets/images/Pillar-Beautiful-Clock-Tower.jpg" alt="clock-tower" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-wrapper max-width-container">
+            <div class="footer-item">
+                <div class="footer-heading">
+                    <strong>Quick Links</strong>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#" title="FAQ">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Careers">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Sitemap">Sitemap</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Contact Us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <div class="footer-heading">
+                    <strong>Website T&Cs</strong>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#" title="Accessibility">Accessibility</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Terms & Conditions">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Security & Privacy">Security & Privacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-item desktop-only"></div>
+            <div class="footer-item">
+                <div class="footer-heading">
+                    <strong>Download App</strong>
+                </div>
+                <ul class="align-horizontally">
+                    <li>
+                        <a href="#" title="android">
+                            <i class="fa-brands fa-android fa-xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="apple">
+                            <i class="fa-brands fa-apple fa-xl"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <div class="footer-heading">
+                    <strong>Social Media</strong>
+                </div>
+                <ul class="align-horizontally">
+                    <li>
+                        <a href="#" title="facebook">
+                            <i class="fa-brands fa-facebook fa-xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="twitter">
+                            <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="youtube">
+                            <i class="fa-brands fa-youtube fa-xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="instagram">
+                            <i class="fa-brands fa-instagram fa-xl"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright © 2024 Dubai Municipality, all rights reserved.
+                <br>
+                This site is maintained by the Dubai Municipality.
+            </p>
+        </div>
+        <div class="copyright">
+            <p>
+                The site is best viewed using Microsoft Edge, Mozilla Firefox, Safari and Chrome.
+                <br>
+                Page last modified: <span id="dynamicDate">
+                    18 October 2024 </span>
+            </p>
+        </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
