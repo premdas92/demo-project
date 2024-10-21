@@ -1,4 +1,4 @@
-# Dubai Municipality - Static Website
+# Demo Project - Static Website
 
 This project is a static website built using **HTML**, **CSS**, and **jQuery**. The CSS is generated from **SCSS** using **node-sass**. The website contains several sections such as navigation, banners, tabs, and more.
 
