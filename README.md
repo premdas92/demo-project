@@ -8,7 +8,7 @@ This project is a static website built using **HTML**, **CSS**, and **jQuery**. 
 - **jQuery** for interactivity, such as tab switching and toggling navigation.
 - **Node-sass** is used for compiling SCSS into CSS.
 - Organized **assets folder** for CSS, JavaScript, and images.
-- Accessibility features such as proper labels, focus management, and semantic HTML.
+- Accessibility features such as proper labels, titles and semantic HTML.
 
 
 ## Installation
@@ -34,8 +34,21 @@ Make sure you have **Node.js** installed. You can download it from [Node.js](htt
 4. Run the following script to compile the SCSS into CSS:
      ```bash
      npm run watch:sass
-     ```bash
 
-     This script watches for changes in styles.scss and automatically compiles the SCSS into assets/css/styles.css.
+### SCSS Structure
+   * **colors.scss**: Stores all the color variables for the project.
+   * **common-styles.scss**: Contains common styles that can be reused throughout the site.
+   * **mixins.scss**: Includes mixins, especially for handling media queries, to keep the SCSS modular and maintainable.
+   * **index.scss**: Imports the SCSS partials (colors.scss, common-styles.scss, and mixins.scss) and is imported into the main styles.scss.
+   * **styles.scss**: The main SCSS file where the actual component-specific styles are written.
 
+### Assets
+   * **css**: The CSS generated from SCSS is placed in assets/css/styles.css.
+   * **js**: All jQuery functionality, including tab switching and toggling menus, is located in assets/js/main.js.
+   * **images**: The images used in the project are located in assets/images.
+
+### Usage
+### Running the Project
+   * Open the index.html file in your browser to view the website.
+   * To develop and make changes to the styles, edit the SCSS files and run npm run watch:sass to automatically compile the changes into CSS.
 
