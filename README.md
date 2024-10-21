@@ -12,4 +12,18 @@ This project is a static website built using **HTML**, **CSS**, and **jQuery**. 
 
 
 ## Folder Structure
-├── assets │ ├── css │ │ └── styles.css # Compiled CSS file │ ├── images # Contains all images │ ├── js │ │ └── main.js # Main JavaScript file ├── scss │ ├── colors.scss # Stores variables for colors │ ├── common-styles.scss # Contains common styles like resets │ ├── mixins.scss # Stores mixins for media queries │ ├── index.scss # Imports other scss files │ └── styles.scss # Main SCSS file that compiles to styles.css ├── index.html # Main HTML file ├── package.json # Node package configuration └── README.md # Project documentation
+├── assets
+  ├── css
+        └── styles.css # Compiled CSS file 
+  ├── images # Contains all images
+  ├── js
+      └── main.js # Main JavaScript file
+  ├── scss
+    ├── colors.scss # Stores variables for colors
+    ├── common-styles.scss # Contains common style
+    ├── mixins.scss # Stores mixins for media queries
+    ├── index.scss # Imports other scss files 
+├── styles.scss # Main SCSS file that compiles to styles.css 
+├── index.html # Main HTML file 
+├── package.json # Node package configuration
+├── README.md # Project documentation
