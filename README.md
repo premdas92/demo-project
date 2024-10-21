@@ -32,7 +32,9 @@ Make sure you have **Node.js** installed. You can download it from [Node.js](htt
       npm install
 
 4. Run the following script to compile the SCSS into CSS:
-  ```bash
+     ```bash
      npm run watch:sass
+
+     This script watches for changes in styles.scss and automatically compiles the SCSS into assets/css/styles.css.
 
 
