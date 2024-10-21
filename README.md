@@ -10,6 +10,24 @@ This project is a static website built using **HTML**, **CSS**, and **jQuery**. 
 - Organized **assets folder** for CSS, JavaScript, and images.
 - Accessibility features such as proper labels, titles and semantic HTML.
 
+### Folder Structure
+
+```
+├── assets 
+│ ├── css 
+│      └── styles.css # Compiled CSS file 
+│ ├── images # Contains all images
+│ ├── js
+│      └── main.js # Main JavaScript file
+| ├── scss
+│      ├── colors.scss # Stores variables for colors
+│      ├── common-styles.scss # Contains common styles
+│      ├── mixins.scss # Stores mixins for media queries
+│      ├── index.scss # Imports all scss files
+├── styles.scss # Main SCSS file that compiles to styles.css
+├── index.html # Main HTML file
+├── package.json # Node package configuration
+└── README.md # Project documentation
 
 ## Installation
 
