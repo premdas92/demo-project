@@ -11,19 +11,28 @@ This project is a static website built using **HTML**, **CSS**, and **jQuery**. 
 - Accessibility features such as proper labels, focus management, and semantic HTML.
 
 
-## Folder Structure
-├── assets
-  ├── css
-        └── styles.css # Compiled CSS file 
-  ├── images # Contains all images
-  ├── js
-      └── main.js # Main JavaScript file
-  ├── scss
-    ├── colors.scss # Stores variables for colors
-    ├── common-styles.scss # Contains common style
-    ├── mixins.scss # Stores mixins for media queries
-    ├── index.scss # Imports other scss files 
-├── styles.scss # Main SCSS file that compiles to styles.css 
-├── index.html # Main HTML file 
-├── package.json # Node package configuration
-├── README.md # Project documentation
+## Installation
+
+Follow the steps below to set up the project on your local machine:
+
+### Prerequisites
+
+Make sure you have **Node.js** installed. You can download it from [Node.js](https://nodejs.org/).
+
+### Steps
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/premdas92/demo-project.git
+   
+2. Navigate to the project folder and install the required dependencies:
+      ```bash
+      cd demo-project
+      npm install
+
+4. Run the following script to compile the SCSS into CSS:
+  ```bash
+     npm run watch:sass
+
+
