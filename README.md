@@ -68,6 +68,6 @@ Make sure you have **Node.js** installed. You can download it from [Node.js](htt
 
 ### Usage
 ### Running the Project
-   * Open the index.html file in your browser to view the website.
-   * To develop and make changes to the styles, edit the SCSS files and run npm run watch:sass to automatically compile the changes into CSS.
+   * Open the `index.html` file in your browser to view the website.
+   * To develop and make changes to the styles, edit the `styles.scss` file and run `npm run watch:sass` to automatically compile the changes into CSS.
 
