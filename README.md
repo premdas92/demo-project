@@ -7,7 +7,7 @@ This project is a static website built using **HTML**, **CSS**, and **jQuery**. 
 - Responsive layout with **SCSS** for styling and **media queries**.
 - **jQuery** for interactivity, such as tab switching and toggling navigation.
 - **Node-sass** is used for compiling SCSS into CSS.
-- Organized **assets folder** for CSS, JavaScript, and images.
+- Organized **assets** folder for CSS, JavaScript, and images.
 - Accessibility features such as proper labels, titles and semantic HTML.
 
 ### Folder Structure
