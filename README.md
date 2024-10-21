@@ -28,6 +28,7 @@ This project is a static website built using **HTML**, **CSS**, and **jQuery**. 
 ├── index.html # Main HTML file
 ├── package.json # Node package configuration
 └── README.md # Project documentation
+```
 
 ## Installation
 
