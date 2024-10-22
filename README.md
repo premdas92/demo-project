@@ -133,4 +133,18 @@ Make sure you have **Node.js** installed. You can download it from [Node.js](htt
 
 ### Screenshots
 
+## Mobile View Screenshots 
+<p align="center">
+     <img src="https://github.com/premdas92/demo-project/blob/main/assets/screenshots/mobile%201.png" width="400" />
+      <img src="https://github.com/premdas92/demo-project/blob/main/assets/screenshots/mobile%204.png" width="400" style="margin-right: 20px;" />
+     <img src="https://github.com/premdas92/demo-project/blob/main/assets/screenshots/mobile%202.png" width="400" />
+     <img src="https://github.com/premdas92/demo-project/blob/main/assets/screenshots/mobile%203.png" width="400" style="margin-right: 20px;" />
+</p>
 
+## Desktop View Screenshots 
+<p align="center">
+     <img src="https://github.com/premdas92/demo-project/blob/main/assets/screenshots/desktop%201.png" width="400" />
+      <img src="https://github.com/premdas92/demo-project/blob/main/assets/screenshots/desktop%202.png" width="400" style="margin-right: 20px;" />
+     <img src="https://github.com/premdas92/demo-project/blob/main/assets/screenshots/desktop%203.png" width="400" />
+     <img src="https://github.com/premdas92/demo-project/blob/main/assets/screenshots/desktop%204.png" width="400" style="margin-right: 20px;" />
+</p>
