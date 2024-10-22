@@ -61,6 +61,7 @@ This static website showcases various sections like navigation, banners, tabs, a
   - **css/**: Compiled CSS from SCSS files.
   - **js/**: Contains all JavaScript and jQuery scripts.
   - **images/**: Holds all image files used throughout the website.
+  - **screenshots/**: Contains the screenshots of various components for both mobile and desktop views.
 - **scss/**: Contains the SCSS files for styling.
   - **colors.scss**: Stores all the color variables for the project.
   - **mixins.scss**: Contains mixins for reusable SCSS code, including media queries.
@@ -77,6 +78,7 @@ This static website showcases various sections like navigation, banners, tabs, a
 │ ├── css 
 │      └── styles.css # Compiled CSS file 
 │ ├── images # Contains all images
+| ├── screenshots # Contains some screenshots of desktop and mobile views
 │ ├── js
 │      └── main.js # Main JavaScript file
 | ├── scss
@@ -133,7 +135,10 @@ Make sure you have **Node.js** installed. You can download it from [Node.js](htt
 
 ### Screenshots
 
+Here are screenshots of the desktop and mobile views.
+
 ## Mobile View Screenshots 
+
 <p align="center">
      <img src="https://github.com/premdas92/demo-project/blob/main/assets/screenshots/mobile%201.png" width="400" />
       <img src="https://github.com/premdas92/demo-project/blob/main/assets/screenshots/mobile%204.png" width="400" style="margin-right: 20px;" />
