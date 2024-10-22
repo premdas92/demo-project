@@ -1,19 +1,36 @@
 $(document).ready(function () {
+  var lastScrollTop = 0;
   $(window).on("scroll", function () {
-    if ($(this).scrollTop() > 50) {
+    var scrollTop = $(this).scrollTop();
+    var windowWidth = $(window).width(); 
+
+    // Only for desktop and above breakpoints
+    if (windowWidth > 1024) {
+      if (scrollTop > lastScrollTop) {
+        $(".desktop-navigation").slideUp("fast");
+      } else {
+        $(".desktop-navigation").slideDown("fast");
+      }
+    }
+
+    if (scrollTop > 100) {
       $(".header-wrapper").addClass("white-background");
       $(".hamburger i").removeClass("color-white").addClass("color-primary");
       $(".header-search i")
         .removeClass("color-white")
         .addClass("color-primary");
-      $(".logo img").removeClass("white-logo");
+      $(".logo img").removeClass("white-mobile-logo");
+      $(".desktop-header .left-logo.two").removeClass("hide")
+      $(".desktop-header .left-logo.one").addClass("hide")
     } else {
       $(".header-wrapper").removeClass("white-background");
       $(".hamburger i").removeClass("color-primary").addClass("color-white");
       $(".header-search i")
         .removeClass("color-primary")
         .addClass("color-white");
-      $(".logo img").addClass("white-logo");
+      $(".logo img").addClass("white-mobile-logo");
+      $(".desktop-header .left-logo.two").addClass("hide")
+      $(".desktop-header .left-logo.one").removeClass("hide")
     }
   });
 

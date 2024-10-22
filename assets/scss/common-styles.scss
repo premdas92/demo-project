@@ -29,10 +29,6 @@ img {
     color: $primary;
 }
 
-.white-background {
-    background-color: $white !important;
-}
-
 .align-horizontally {
     display: flex;
     align-items: center;
@@ -46,9 +42,9 @@ img {
 }
 
 .desktop-only {
-    display: none;
+    display: none !important;
     @include small-desktop {
-        display: block;
+        display: block !important;
     }
 }
 
@@ -59,4 +55,8 @@ img {
 
 .full-width{
     width: 100% !important;
+}
+
+.hide{
+    display: none !important;
 }
