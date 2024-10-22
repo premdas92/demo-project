@@ -26,7 +26,7 @@ This static website showcases various sections like navigation, banners, tabs, a
 - **Font Awesome**: Icons are sourced from **Font Awesome 6**. These are used for navigation, buttons, and other interactive elements.
 - **CDN for jQuery**: **jQuery 3.6.0** is included via a CDN link for simplicity.
 
-### External Resources Used
+## External Resources Used
 
 1. **Google Fonts - Lato**: 
      ```html
@@ -71,7 +71,7 @@ This static website showcases various sections like navigation, banners, tabs, a
 - **index.html**: The main HTML file for the website.
 - **package.json**: Node.js configuration for managing dependencies and build scripts.
 
-### Folder Structure
+## Folder Structure
 
 ```
 ├── assets 
@@ -116,28 +116,27 @@ Make sure you have **Node.js** installed. You can download it from [Node.js](htt
      ```bash
      npm run watch:sass
 
-### SCSS Structure
+## SCSS Structure
    * **colors.scss**: Stores all the color variables for the project.
    * **common-styles.scss**: Contains common styles that can be reused throughout the site.
    * **mixins.scss**: Includes mixins, especially for handling media queries, to keep the SCSS modular and maintainable.
    * **index.scss**: Imports the SCSS partials (colors.scss, common-styles.scss, and mixins.scss) and is imported into the main styles.scss.
    * **styles.scss**: The main SCSS file where the actual component-specific styles are written.
 
-### Assets
+## Assets
    * **css**: The CSS generated from SCSS is placed in assets/css/styles.css.
    * **js**: All jQuery functionality, including tab switching and toggling menus, is located in assets/js/main.js.
    * **images**: The images used in the project are located in assets/images.
 
-### Usage
-### Running the Project
+## Running the Project
    * Open the `index.html` file in your browser to view the website.
    * To develop and make changes to the styles, edit the `styles.scss` file and run `npm run watch:sass` to automatically compile the changes into CSS.
 
-### Screenshots
+## Screenshots
 
 Here are screenshots of the desktop and mobile views.
 
-## Mobile View Screenshots 
+### Mobile View Screenshots 
 
 <p align="center">
      <img src="https://github.com/premdas92/demo-project/blob/main/assets/screenshots/mobile%201.png" width="400" />
@@ -146,7 +145,7 @@ Here are screenshots of the desktop and mobile views.
      <img src="https://github.com/premdas92/demo-project/blob/main/assets/screenshots/mobile%203.png" width="400" style="margin-right: 20px;" />
 </p>
 
-## Desktop View Screenshots 
+### Desktop View Screenshots 
 <p align="center">
      <img src="https://github.com/premdas92/demo-project/blob/main/assets/screenshots/desktop%201.png" width="400" />
       <img src="https://github.com/premdas92/demo-project/blob/main/assets/screenshots/desktop%202.png" width="400" style="margin-right: 20px;" />
